@@ -24,7 +24,7 @@ Make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/zielarka/HackerNews.git
+   git clone https://github.com/zielarka/HackerNewsWeb.git
    cd HackerNewsWeb
 
 2. Clone the repository:
