@@ -31,7 +31,7 @@ Make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs
     ```bash
    npm install
 
-3. Create a .env.local file in the root directory and add your environment variables:
+3. Create a .env.local file in the root directory and add environment variables:
     ```bash
     NEXT_PUBLIC_HACKER_NEWS_API=https://hacker-news.firebaseio.com/v0
 
