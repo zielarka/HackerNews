@@ -1,25 +1,42 @@
-# Welcome to Next.js
+# HackerNewsWeb
 
-This is the most minimal starter for your Next.js project.
+HackerNewsWeb is a web application built with Next.js and TypeScript. It allows users to view and interact with articles from Hacker News. The project includes a contact form that sends feedback without reloading the page, and it uses Tailwind CSS for styling.
 
-## Deploy your own
+## Table of Contents
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/hello-world&project-name=hello-world&repository-name=hello-world)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Environment Variables](#environment-variables)
+- [Available Scripts](#available-scripts)
+- [License](#license)
 
-## How to use
+## Getting Started
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+To get a local copy up and running, follow these steps.
 
-```bash
-npx create-next-app --example hello-world hello-world-app
-```
+### Prerequisites
 
-```bash
-yarn create next-app --example hello-world hello-world-app
-```
+Make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed.
 
-```bash
-pnpm create next-app --example hello-world hello-world-app
-```
+### Installation
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/HackerNewsWeb.git
+   cd HackerNewsWeb
+
+2. Clone the repository:
+    ```bash
+   npm install
+
+3. Create a .env.local file in the root directory and add your environment variables:
+    ```bash
+    NEXT_PUBLIC_HACKER_NEWS_API=https://hacker-news.firebaseio.com/v0
+
+4. Running the Application To start the development server, run:
+    ```bash
+    npm run dev
+
+5. Open ```bashhttp://localhost:3000 ```bash to view it in your browser.
