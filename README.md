@@ -39,4 +39,4 @@ Make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs
     ```bash
     npm run dev
 
-5. Open ```bashhttp://localhost:3000 ```bash to view it in your browser.
+5. Open ```http://localhost:3000``` to view it in your browser.
